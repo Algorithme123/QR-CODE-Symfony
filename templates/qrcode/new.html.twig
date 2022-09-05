@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Qrcode{% endblock %}
+
+{% block body %}
+    <h1>Create new Qrcode</h1>
+
+    {{ include('qrcode/_form.html.twig') }}
+
+    {# <a href="{{ path('app_qrcode_index') }}">back to list</a> #}
+{% endblock %}
